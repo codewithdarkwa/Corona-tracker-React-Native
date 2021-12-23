@@ -1,10 +1,12 @@
 {
   "expo": {
-    "name": "Corona-tracker",
+    "name": "Corona Tracker",
     "slug": "Corona-tracker",
-    "version": "1.0.0",
+    "version": "1.0.2", 
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "privacy":"public",
+    "description":"An application to track the number of people affected in a given country",
+    "icon": "./assets/Corona-img.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",

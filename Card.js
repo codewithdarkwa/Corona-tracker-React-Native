@@ -18,15 +18,17 @@ const Cards = ({ data }) => {
         >
           <Card style={{ backgroundColor: "red", padding: 5 }}>
             <Title>Confirmed Cases</Title>
-            <Text>{data.confirmed.value}</Text>
+            <Text style={{ fontSize: 20 }}>{data.confirmed.value}</Text>
           </Card>
           <Card style={{ backgroundColor: "green", padding: 5 }}>
             <Title>Recovered</Title>
-            <Text>{data.recovered.value}</Text>
+            <Text style={{ fontSize: 20 }}>{data.recovered.value}</Text>
           </Card>
           <Card style={{ backgroundColor: "black", padding: 10 }}>
             <Title style={{ color: "#fff" }}>Deaths</Title>
-            <Text style={{ color: "#fff" }}>{data.deaths.value}</Text>
+            <Text style={{ color: "#fff", fontSize: 20 }}>
+              {data.deaths.value}
+            </Text>
           </Card>
         </View>
       )}
